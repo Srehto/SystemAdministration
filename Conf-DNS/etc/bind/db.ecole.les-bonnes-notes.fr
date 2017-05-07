@@ -1,0 +1,28 @@
+$TTL	604800
+@	IN	SOA	passerelle.ecole.les-bonnes-notes.fr. hostmaster.ecole.les-bonnes-notes.fr. (
+			201301312	; Serial
+			604800		; Refresh
+			86400		; Retry
+			2419200	; Expire
+			604800 )	; Negative Cache TTL
+;
+$ORIGIN ecole.les-bonnes-notes.fr.
+
+	IN	NS			passerelle.ecole.les-bonnes-notes.fr.
+;	NS	dns2.ecole.les-bonnes-notes.fr.
+;MX	10	mail.ecole.les-bonnes-notes.fr.
+passerelle			A	192.168.129.254
+cm21				A	192.168.129.1
+cm22                            A       192.168.129.2
+cm23                            A       192.168.129.3
+cm24                            A       192.168.129.4
+cm11                            A       192.168.129.5
+cm12                            A       192.168.129.6
+cm13                            A       192.168.129.7
+cm14                            A       192.168.129.8
+cm15                            A       192.168.129.9
+omar                            A       192.168.129.10
+impr                            A       192.168.129.11
+biblio                          A       192.168.129.12
+
+

@@ -1,0 +1,29 @@
+// Zone primaire
+zone "ecole.les-bonnes-notes.fr" {
+	type master;
+	notify yes;
+	file "/etc/bind/db.ecole.les-bonnes-notes.fr";
+};
+
+// Zone primaire
+zone "admin.les-bonnes-notes.fr" {
+        type master;
+	notify yes;
+	file "/etc/bind/db.admin.les-bonnes-notes.fr";
+	};
+
+
+// Zone reverse
+zone "129.168.192.in-addr.arpa" {
+	type master;
+	notify yes;
+	file "/etc/bind/db.192.168.129";
+};
+
+// Zone reverse
+zone "207.168.192.in-addr.arpa" {
+        type master;
+	notify yes;
+	file "/etc/bind/db.192.168.207";
+};
+

@@ -1,0 +1,12 @@
+N      SOA     passerelle.ecole.les-bonnes-notes.fr. hostmaster.ecole.les-bonnes-notes.fr. (
+	201301312       ; Serial
+	604800          ; Refresh
+	86400           ; Retry
+	2419200 ; Expire
+	604800 )        ; Negative Cache TTL
+;
+$ORIGIN 207.168.192.in-addr.arpa.
+        NS      passerelle.ecole.les-bonnes-notes.fr.
+1       PTR     ldap.admin.les-bonnes-notes.fr.
+2       PTR     www.admin.les-bonens-notes.fr.
+

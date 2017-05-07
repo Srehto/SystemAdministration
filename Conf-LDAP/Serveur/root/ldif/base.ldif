@@ -1,0 +1,30 @@
+dn: dc=les-bonnes-notes,dc=fr
+objectClass: dcObject
+objectClass: organization
+dc: les-bonnes-notes
+o: les-bonnes-notes
+description: Ecole les bonnes notes
+street: avenue JB Clement
+postalCode: 93430
+postalAddress: Villetaneuse
+l: Villetaneuse
+st: Ile de France
+
+dn: ou=ecole,dc=les-bonnes-notes,dc=fr
+objectClass: top
+objectClass: organizationalUnit
+ou: ecole
+description: domaine ecole
+
+dn: ou=admin,dc=les-bonnes-notes,dc=fr
+objectClass: top
+objectClass: organizationalUnit
+ou: admin
+description: domaine administration de l'ecole
+
+dn: cn=direction,dc=les-bonnes-notes,dc=fr
+objectClass: top
+objectClass: person
+userPassword: secret
+cn: direction
+sn: Administrateur

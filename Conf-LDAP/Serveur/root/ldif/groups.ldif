@@ -1,0 +1,32 @@
+dn: ou=groups,dc=les-bonnes-notes,dc=fr
+objectClass: top
+objectClass: organizationalUnit
+ou: groups
+
+dn: cn=cp,ou=groups,dc=les-bonnes-notes,dc=fr
+objectClass: top
+objectClass: posixGroup
+cn: cp
+gidNumber: 502
+memberUId: anne
+
+dn: cn=ce1,ou=groups,dc=les-bonnes-notes,dc=fr
+objectClass: top
+objectClass: posixGroup
+cn: ce1
+gidNumber: 503
+memberUId: marie
+
+dn: cn=ce2_cm1,ou=groups,dc=les-bonnes-notes,dc=fr
+objectClass: top
+objectClass: posixGroup
+cn: ce2_cm1
+gidNumber: 504
+memberUId: jean
+
+dn: cn=biblio,ou=groups,dc=les-bonnes-notes,dc=fr
+objectClass: top
+objectClass: posixGroup
+cn: biblio
+gidNumber: 506
+memberUId: brigitte

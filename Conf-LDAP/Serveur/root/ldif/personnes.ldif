@@ -1,0 +1,104 @@
+dn: ou=people,dc=les-bonnes-notes,dc=fr
+objectClass: top
+objectClass: organizationalUnit
+ou: people
+
+dn: uid=anne,ou=people,dc=les-bonnes-notes,dc=fr
+givenName: Anne
+sn: Anne
+loginShell:/bin/bash
+uidNumber: 6167
+gidNumber: 502
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetorgperson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: anne
+cn: Anne CP
+homeDirectory: /home/anne
+shadowLastChange: -1
+shadowMin: -1
+shadowMax: 99999
+shadowWarning: 7
+shadowInactive: -1
+shadowExpire: -1
+shadowFlag: 0
+gecos: Anne CP
+userPassword: anne
+
+dn: uid=marie,ou=people,dc=les-bonnes-notes,dc=fr
+givenName: Marie
+sn: Marie
+loginShell:/bin/bash
+uidNumber: 6168
+gidNumber: 503
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetorgperson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: marie
+cn: Marie CE1
+homeDirectory: /home/anne
+shadowLastChange: -1
+shadowMin: -1
+shadowMax: 99999
+shadowWarning: 7
+shadowInactive: -1
+shadowExpire: -1
+shadowFlag: 0
+gecos: Marie CE1
+userPassword: marie
+
+dn: uid=jean,ou=people,dc=les-bonnes-notes,dc=fr
+givenName: Jean
+sn: Jean
+loginShell:/bin/bash
+uidNumber: 6169
+gidNumber: 503
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetorgperson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: jean
+cn: Jean CE2 Cm1
+homeDirectory: /home/jean
+shadowLastChange: -1
+shadowMin: -1
+shadowMax: 99999
+shadowWarning: 7
+shadowInactive: -1
+shadowExpire: -1
+shadowFlag: 0
+gecos: Jean CE2 Cm1
+userPassword: jean
+
+dn: uid=brigitte,ou=people,dc=les-bonnes-notes,dc=fr
+givenName: Brigitte
+sn: Brigitte
+loginShell:/bin/bash
+uidNumber: 6170
+gidNumber: 506
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetorgperson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: brigitte
+cn: Brigitte Biblio
+homeDirectory: /home/brigitte
+shadowLastChange: -1
+shadowMin: -1
+shadowMax: 99999
+shadowWarning: 7
+shadowInactive: -1
+shadowExpire: -1
+shadowFlag: 0
+gecos: Brigitte Biblio
+userPassword: brigitte
